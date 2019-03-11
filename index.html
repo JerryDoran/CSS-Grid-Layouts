@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Grids</title>
+    <style>
+
+      .container {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /* grid-column-gap: 1em;
+        grid-row-gap: 1em; */
+
+        grid-gap: 1em;
+      }
+
+      .container div {
+        background: #eee;
+        padding: 1em;
+      }
+
+      .container div:nth-child(odd) {
+        background: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolores nisi
+        eligendi necessitatibus repudiandae inventore repellendus qui dicta ipsum quae,
+        earum labore vel, voluptas cum. Possimus quia quae repudiandae corporis nesciunt
+        commodi, quaerat natus dolorem nemo doloremque cum ea iste dicta quasi.
+        Iste ipsam ex labore ut repellendus voluptatum aperiam maxime pariatur quae
+        consequatur, vel dignissimos eius harum earum nobis nam impedit accusamus at
+        itaque! Expedita distinctio veniam deserunt asperiores neque, suscipit temporibus
+        ex molestiae? Maiores sequi ea, veniam dolorem.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nihil laborum
+        at beatae reprehenderit optio quae libero! Pariatur repudiandae repellendus
+        animi eligendi architecto incidunt, perspiciatis qui cupiditate cumque ullam
+        dolorem.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolores nisi
+        eligendi necessitatibus repudiandae inventore repellendus qui dicta ipsum quae,
+        earum labore vel, voluptas cum. Possimus quia quae repudiandae corporis nesciunt
+        commodi, quaerat natus dolorem nemo doloremque cum ea iste dicta quasi.
+        Iste ipsam ex labore ut repellendus voluptatum aperiam maxime pariatur quae
+        consequatur, vel dignissimos eius harum earum nobis nam impedit accusamus at
+        itaque! Expedita distinctio veniam deserunt asperiores neque, suscipit temporibus
+        ex molestiae? Maiores sequi ea, veniam dolorem.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nihil laborum
+        at beatae reprehenderit optio quae libero! Pariatur repudiandae repellendus
+        animi eligendi architecto incidunt, perspiciatis qui cupiditate cumque ullam
+        dolorem.
+      </div>
+    </div>
+
+  </body>
+</html>
